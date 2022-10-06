@@ -2,7 +2,8 @@
 :root{
     --brand-color:       #2196f3;
     --main-color:        #2f303a;
-    --title-color:       #000000;
+    --logo-color:        #000000;
+    --title-color:       #212121;
     --text-color:        #757575;
     --background-color:  #f5f4fA;
     --text-color-inv:    #ffffff;
@@ -13,7 +14,7 @@
     color: var(--brand-color);
 }
 .logo-studio{
-    color: var(--title-color);
+    color: var(--logo-color);
 }
 /*Main Navigation----------------------------------------------------------*/
 .nav{
@@ -29,10 +30,21 @@
 .link:hover{
     color: var(--brand-color);
 }
-/*Main*/
-/*Section hero-------------------------------------------------------------*/
+.link:focus{
+    color: var(--brand-color);
+}
+/*Body---------------------------------------------------------------------*/
+body {
+    color: var(--title-color);
+}
+p {
+    color: var(--text-color); 
+}
 .hero{
     background-color: var(--main-color);
+}
+.team{
+    background-color: var(--background-color);
 }
 .hero-title{
     color: var(--text-color-inv);
@@ -42,7 +54,48 @@
     background-color: var(--brand-color);
     border: none;
 }
-.hero-button:active{
+.hero-button:hover{
     color: var(--brand-color);
     background-color: var(--text-color-inv);
+}
+.hero-button:focus{
+    color: var(--brand-color);
+    background-color: var(--text-color-inv);
+}
+.filter button {
+    color: color: var(--title-color);
+    background-color: var(--background-color);
+    border: none;
+}
+.filter button:hover {
+    color: color: var(--text-color-inv);
+    background-color: var(--brand-color);
+    border: none;
+}
+.filter button:focus {
+    color: color: var(--text-color-inv);
+    background-color: var(--brand-color);
+    border: none;
+}
+/*Footer------------------------------------------------------------------*/
+.footer{
+    background-color: var(--main-color);
+}
+.adress{
+    color: var(--text-color-inv);
+}
+.adress:hover{
+    color: var(--brand-color);
+}
+.adress:focus{
+    color: var(--brand-color);
+}
+.footer-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover{
+    color: var(--brand-color);
+}
+.footer-link:focus{
+    color: var(--brand-color);
 }
