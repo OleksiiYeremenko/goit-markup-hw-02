@@ -1,0 +1,48 @@
+/*colors-------------------------------------------------------------------*/
+:root{
+    --brand-color:       #2196f3;
+    --main-color:        #2f303a;
+    --title-color:       #000000;
+    --text-color:        #757575;
+    --background-color:  #f5f4fA;
+    --text-color-inv:    #ffffff;
+}
+/*Header*/
+/*Logo Style---------------------------------------------------------------*/
+.logo-web{
+    color: var(--brand-color);
+}
+.logo-studio{
+    color: var(--title-color);
+}
+/*Main Navigation----------------------------------------------------------*/
+.nav{
+    color: var(--title-color);
+}
+.nav:hover{
+    color: var(--brand-color);
+}
+/*Email and Phonenumber----------------------------------------------------*/
+.link{
+    color: var(--text-color);
+}
+.link:hover{
+    color: var(--brand-color);
+}
+/*Main*/
+/*Section hero-------------------------------------------------------------*/
+.hero{
+    background-color: var(--main-color);
+}
+.hero-title{
+    color: var(--text-color-inv);
+}
+.hero-button{
+    color: var(--text-color-inv);
+    background-color: var(--brand-color);
+    border: none;
+}
+.hero-button:active{
+    color: var(--brand-color);
+    background-color: var(--text-color-inv);
+}
