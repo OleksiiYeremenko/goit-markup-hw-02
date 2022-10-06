@@ -10,14 +10,25 @@
 }
 /*Header*/
 /*Logo Style---------------------------------------------------------------*/
+.logo{
+    font-family: 'Releway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--logo-color);
+}
 .logo-web{
     color: var(--brand-color);
 }
-.logo-studio{
-    color: var(--logo-color);
-}
+
 /*Main Navigation----------------------------------------------------------*/
 .nav{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
     color: var(--title-color);
 }
 .nav:hover{
@@ -25,6 +36,11 @@
 }
 /*Email and Phonenumber----------------------------------------------------*/
 .link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
     color: var(--text-color);
 }
 .link:hover{
@@ -35,6 +51,7 @@
 }
 /*Body---------------------------------------------------------------------*/
 body {
+    font-family: 'Roboto', sans-serif;
     color: var(--title-color);
 }
 p {
@@ -66,6 +83,7 @@ p {
     color: var(--title-color);
     background-color: var(--background-color);
     border: none;
+    cursor: pointer;
 }
 .filter button:hover {
     color: var(--text-color-inv);
