@@ -63,17 +63,17 @@ p {
     background-color: var(--text-color-inv);
 }
 .filter button {
-    color: color: var(--title-color);
+    color: var(--title-color);
     background-color: var(--background-color);
     border: none;
 }
 .filter button:hover {
-    color: color: var(--text-color-inv);
+    color: var(--text-color-inv);
     background-color: var(--brand-color);
     border: none;
 }
 .filter button:focus {
-    color: color: var(--text-color-inv);
+    color: var(--text-color-inv);
     background-color: var(--brand-color);
     border: none;
 }
