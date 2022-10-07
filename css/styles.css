@@ -1,5 +1,6 @@
-/*colors-------------------------------------------------------------------*/
+
 :root{
+/*colors-------------------------------------------------------------------*/  
     --color-active:                #2196f3;
     --color-primary-background:    #2f303a;
     --color-title:                 #212121;
@@ -7,9 +8,12 @@
     --color-secondary-background:  #f5f4fA;
     --color-white:                 #ffffff;
     --color-black:                 #000000;
+/*Fonts-------------------------------------------------------------------*/
+    --roboto:                      'Roboto', sans-serif;
+    --releway:                     'Raleway', sans-serif;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto);
     font-size: 14px;
     line-height: 1.7;
     color: var(--color-primary);
@@ -42,8 +46,9 @@ ul {
     color: var(--color-active);
 }
 .section-title{
-    font-weight: 700;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--color-title);
 }
 .title{
@@ -52,13 +57,13 @@ ul {
 .team-member{
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.18;
     color: var(--color-title);
 }
 .team-job-title{
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.18;
 }
 .hero{
     background-color: var(--color-primary-background);
@@ -89,7 +94,6 @@ ul {
     background-color: var(--color-primary-background);
 }
 .adress{
-    font-weight:400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -104,7 +108,7 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 .logo{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--releway);
     font-size: 26px;
     line-height: 1.2;
     color: var(--color-black);
@@ -118,26 +122,35 @@ ul {
 }
 .filter-button{
 background-color: var(--color-secondary-background);
-color: var(--color-black);
+color: var(--color-title);
+font-family: var(--roboto);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.63;
 border: none;
 cursor: pointer;
+padding-left: 22px;
+padding-right: 22px;
+padding-top: 6px;
+padding-bottom: 6px;
+border-radius: 4px;
 }
 .filter-button:hover{
     background-color: var(--color-active);
     color: var(--color-white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .filter-button:focus{
     background-color: var(--color-active);
     color: var(--color-white);
 }
 .portfolio-title{
-    font-weight:700;
     font-size: 18px;
     line-height: 2;
     color: var(--color-title);
 }
 .portfolio-text{
-    font-weight:inherit;
     font-size: 16px;
     line-height: 1.9;
     color: var(--color-primary);
